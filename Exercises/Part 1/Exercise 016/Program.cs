@@ -7,7 +7,11 @@ namespace exercise_16
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+      int number = 86400;
+            Console.Write("How many days? ");
+            string userInput = Console.ReadLine();
+            int intValue = Convert.ToInt32(userInput);
+            Console.WriteLine(number * intValue);
 
     }
   }
