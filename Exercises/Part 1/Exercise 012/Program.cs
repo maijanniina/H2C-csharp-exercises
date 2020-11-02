@@ -8,8 +8,9 @@ namespace exercise_12
     public static void Main(string[] args)
     {
       Console.Write("Give a number!");
-      string number = Console.ReadLine();
-            Console.WriteLine("You gave " + number);
+            string userInput = Console.ReadLine();
+      int intValue = Convert.ToInt32(userInput);
+            Console.WriteLine("You gave " + intValue);
 
     }
   }
