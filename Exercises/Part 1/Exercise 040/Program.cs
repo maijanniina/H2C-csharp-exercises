@@ -22,18 +22,14 @@ namespace exercise_40
 
                 if (number < 0)
                 {
-
                     sum1 = sum1 + number; 
                     amount = amount + 1;
-
                 }
 
                 if (number > 0)
                 {
-
                     sum2 = sum2 + number; 
                     amount1 = amount1 + 1;
-
                 }
         }
 
