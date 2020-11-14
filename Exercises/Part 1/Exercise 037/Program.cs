@@ -32,7 +32,6 @@ namespace exercise_37
 
             }
             
-
        }
 
        Console.WriteLine("Total amount of numbers " + countSum);
