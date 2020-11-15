@@ -11,7 +11,7 @@ namespace exercise_45
        while ( i < end)
        {
 
-            Console.WriteLine(i);
+            Console.Write(i);
             i++;
 
        }
