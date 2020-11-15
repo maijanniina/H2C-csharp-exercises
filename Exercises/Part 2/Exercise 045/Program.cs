@@ -6,8 +6,15 @@ namespace exercise_45
   {
     public static void Main(string[] args)
     {
+       int i = 0;
+       int end = Convert.ToInt32(Console.ReadLine());
+       while ( i < end)
+       {
 
-      // Write your code here:
+            Console.WriteLine(i);
+            i++;
+
+       }
 
     }
   }
