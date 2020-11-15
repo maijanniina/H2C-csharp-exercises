@@ -7,8 +7,15 @@ namespace exercise_42
     public static void Main(string[] args)
     {
 
-      // Write your code here:
-    
+      int first = Convert.ToInt32(Console.ReadLine());
+      int second = Convert.ToInt32(Console.ReadLine());
+      
+      int sum = first + second;
+
+      int number = sum;
+      double squareRoot = Math.Sqrt(number);
+            
+      Console.WriteLine(squareRoot);
     }
   }
 }
