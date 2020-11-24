@@ -24,6 +24,7 @@ namespace exercise_48
                    Console.WriteLine("Sum " + sum);
                    Console.WriteLine("Numbers " + amount);
                    Console.WriteLine("average " + sum / amount);
+                  
                    break;
                 }
 
@@ -35,8 +36,8 @@ namespace exercise_48
                     givenNumbers++;
                     continue;
 
-                }            
- 
+                }
+          
 
            }
           
