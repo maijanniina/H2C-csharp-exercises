@@ -6,10 +6,15 @@ namespace exercise_56
   {
     public static void Main(String[] args)
     {
-
+           Word();
+           Console.WriteLine("Hello");
     }
 
-    // Write your method here:
+        // Write your method here:
+        public static string Word()
+        {
+            return "Word";
+        }
 
   }
 }
