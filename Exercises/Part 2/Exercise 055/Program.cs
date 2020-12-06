@@ -10,7 +10,7 @@ namespace exercise_55
 
          Console.WriteLine(number);    
     }
-
+        
         public static int NumberUno()
         {
             return 1;
