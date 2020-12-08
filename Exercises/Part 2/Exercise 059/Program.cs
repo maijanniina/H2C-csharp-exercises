@@ -11,6 +11,11 @@ namespace exercise_59
     }
 
     // Write your method here:
+    public static int GrEatest(int number1, int number2, int number3) 
+    {
+      
+      
+    }
 
   }
 }
