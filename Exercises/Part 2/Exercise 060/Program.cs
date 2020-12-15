@@ -9,44 +9,63 @@ namespace exercise_60
         PrintStars(5);
         PrintStars(3);
         PrintStars(9);
+        PrintSquare(4);
+        PrintRectangle(17, 3);
         }
    
 
-       public static void PrintStars(int number)
-       {
+            public static void PrintStars(int number)
+            {
       // you can print one star with the command
       // Console.Write("*");
       // call the print command n times
       // in the end print a line break with the comand
       // Console.WriteLine("");
-            int printable = number;
-            while(printable <= number * number) 
-            {
+                int n = number;
+                while(n <= number * number) 
+                {
                 Console.Write("*");
-                printable += number;
+                n += number;
+                }
+
+                Console.WriteLine(" "); 
+
             }
-
-            Console.WriteLine(" ");
-
-       }
-       
+        
 
           public static void PrintSquare(int size)
           {
+           int n = size;
+           while(n <= size * size * size)
+           {
+
+            Console.Write("*");
+            n += size;
+
+           }
+
+           Console.WriteLine(" "); 
+          }  
+          
+           
         
-          }     
-           
-           
-  
 
-            public static void PrintRectangle(int width, int height)
-            {
+        public static void PrintRectangle(int width, int height)
+        {
+            int n = height;
+           while( n < width )
+           {
+             Console.Write("*");
+              n += width;
 
-            }
+           }
 
-            public static void PrintTriangle(int size)
-            {
+            Console.WriteLine(" "); 
+        }
 
-            }
+        public static void PrintTriangle(int size)
+        {
+
+        }
   }
 }
